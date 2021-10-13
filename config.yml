@@ -42,14 +42,14 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
+        favicon: "https://wallery.app/dufovot/colored-lion-wallpaper.webp"
         favicon16x16: "<link / abs url>"
         favicon32x32: "<link / abs url>"
         apple_touch_icon: "<link / abs url>"
         safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "Home"
+        text: "Alejandro Domínguez"
         icon: "https://i.pinimg.com/originals/d6/00/86/d600863ad0cfbac83799ffd1492ab2fb.jpg"
         iconHeight: 35
 
@@ -58,7 +58,7 @@ params:
         enabled: false # needs to be explicitly set
         title: ExampleSite
         subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        imageUrl: "http://herramientasgratis.com/wp-content/uploads/2020/01/29-291287_yellow-4k-ultra-hd-wallpaper-fondo-amarillo-hd-scaled.jpg"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
@@ -70,7 +70,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
+        Title: "Esta es mi pagina web \U0001F60E"
         Content: Hey wasap
 
     socialIcons:

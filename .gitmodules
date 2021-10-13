@@ -1,0 +1,3 @@
+[submodule "hugo-estatica"]
+	path = hugo-estatica
+	url = git@github.com:Domin01/hugo-estatica.git

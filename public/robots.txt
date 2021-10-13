@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://domin-alejandro.netlify.app/sitemap.xml

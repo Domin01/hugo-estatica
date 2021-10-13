@@ -1,6 +1,6 @@
 baseURL: "https://domin-alejandro.netlify.app/"
 languageCode: "en-us"
-title: "Domingo"
+title: "Domin"
 theme: "PaperMod"
 
 enableRobotsTXT: true
@@ -14,12 +14,14 @@ minify:
     disableXML: true
     minifyOutput: true
 
+
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
+    title: Blog Informática
+    description: "Esta es la descripción de mi pagina"
     keywords: [Blog, Portfolio, PaperMod]
-    author: Me
+    author: Alejandro Dominguez Alcocer
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
@@ -30,10 +32,10 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
-    comments: false
+    comments: true
     hidemeta: false
     hideSummary: false
     showtoc: false
@@ -70,8 +72,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Esta es mi pagina web \U0001F60E"
-        Content: Hey wasap
+        Title: "BLOG PERSONAL \U0001F427"
+        Content: Bienvenido, este es mi blog personal donde subire todos los trabajos que realize este segundo curso del Gonzalo Nazareno.
 
     socialIcons:
         - name: twitter
@@ -79,7 +81,15 @@ params:
         - name: stackoverflow
           url: "https://stackoverflow.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/Domin01"
+        - name: discord
+          url: "https://discord.gg/XtnfrpNF"
+        - name: paypal
+          url : "https://paypal.com"
+        - name: youtube
+          url : "https://youtube.com"
+        - name: steam
+          url : "https://store.steampowered.com/?l=spanish"
 
     analytics:
         google:
@@ -95,8 +105,8 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/<path_to_repo>/content"
-        Text: "Suggest Changes" # edit text
+        URL: "https://github.com/Domin01/hugo-estatica"
+        Text: "Sugiere un cambio" # edit text
         appendFilePath: true # to append file path to Edit link
 
     # for search
@@ -112,16 +122,16 @@ params:
 menu:
     main:
         - identifier: categories
-          name: categories
+          name: Windows
           url: /categories/
           weight: 10
         - identifier: tags
-          name: tags
+          name: Debian
           url: /tags/
           weight: 20
         - identifier: example
-          name: example.org
-          url: https://example.org
+          name: Web Gonzalo Nazareno
+          url: https://dit.gonzalonazareno.org/gestiona/
           weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 #pygmentsUseClasses: true

@@ -14,8 +14,6 @@ minify:
     disableXML: true
     minifyOutput: true
 
-
-
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Blog Informática
@@ -33,7 +31,7 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
-    disableSpecial1stPost: false
+    disableSpecial1stPost: true
     disableScrollToTop: false
     comments: true
     hidemeta: false
@@ -121,6 +119,10 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 5
         - identifier: windows
           name: Windows
           url: /windows/

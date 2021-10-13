@@ -56,12 +56,12 @@ params:
     # profile-mode
     profileMode:
         enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "http://herramientasgratis.com/wp-content/uploads/2020/01/29-291287_yellow-4k-ultra-hd-wallpaper-fondo-amarillo-hd-scaled.jpg"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
+        title: ¡Esta es la pagina web de Alejandro Dominguez Alcocer
+        subtitle: "Aqui encontraras todo tipo de funcionalidades para la implentacion de sistemas."
+        imageUrl: "https://images.alphacoders.com/626/626164.jpg"
+        imageWidth: 200
+        imageHeight: 200
+        imageTitle: Spidy
         buttons:
             - name: Posts
               url: posts

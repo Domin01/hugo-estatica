@@ -121,13 +121,13 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: categories
+        - identifier: windows
           name: Windows
-          url: /categories/
+          url: /windows/
           weight: 10
-        - identifier: tags
-          name: Debian
-          url: /tags/
+        - identifier: linux
+          name: Linux
+          url: /linux/
           weight: 20
         - identifier: example
           name: Web Gonzalo Nazareno

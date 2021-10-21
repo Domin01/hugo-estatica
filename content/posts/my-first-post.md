@@ -35,3 +35,7 @@ Puedes añadir tantas líneas y párrafos como quieras.
 
 
 [Enlace a Google](http://www.google.com)
+
+Esta modificación ha sido realizada por Dani Mesa, toma un cochecito guapo:
+
+![](https://images1.autocasion.com/unsafe/1200x800/actualidad/wp-content/uploads/2020/12/Lotus-Evija-2020-1280-07.jpg)
